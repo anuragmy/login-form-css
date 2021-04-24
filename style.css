@@ -1,0 +1,56 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.body {
+  height: 100vh;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.j1lRfx27fonASMGUzkAPwwHaEK%26pid%3DApi&f=1")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box h1 {
+  float: right;
+  color: white;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.textbox {
+  margin: 18px 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+  font-size: 20px;
+  border-bottom: 1px solid #4caf50;
+}
+
+.textbox input {
+  color: white;
+  border: none;
+  outline: none;
+  float: left;
+  font-size: 20px;
+  background: none;
+}
+
+.btn {
+  width: 100%;
+  border: 2px solid #4caf50;
+  background: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+}
